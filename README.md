@@ -1,31 +1,21 @@
 # CPETESTCENTER
 
 ## Visão Geral
-O **CPETestCenter** é um sistema completo de provisionamento e controle de ONTs (*Optical Network Terminal*) Nokia para OLTs ISAM 7030 FX4. Desenvolvido com foco em eficiência e produtividade, ele permite testar, validar e gerenciar grandes volumes de equipamentos de forma automatizada.
+O **CPETestCenter** é um sistema completo de provisionamento e controle de ONTs (*Optical Network Terminal*). Desenvolvido com foco em eficiência e produtividade, ele permite testar, validar e gerenciar grandes volumes de equipamentos de forma automatizada.
 
 ## Funcionalidades Principais
-- **Provisionamento e Desprovisionamento** de ONTs na OLT Nokia.
+- **Provisionamento e Desprovisionamento** de ONTs.
 - **Execução de testes automatizados** para garantir a qualidade e o funcionamento das ONTs.
-- **Extração de informações ópticas e operacionais** via Telnet.
+- **Extração de informações ópticas e operacionais**.
 - **Teste de tráfego de dados** e Wi-Fi.
 - **Monitoramento e relatórios detalhados** sobre os resultados dos testes.
-- **Gerenciamento de conexões Telnet** para execução de comandos em massa.
+- **Gerenciamento eficiente** para execução de comandos em massa.
 - **Interface gráfica intuitiva** para operação e acompanhamento dos testes.
 - **Geração de logs e exportação de dados** para análise.
 - **Controle de PON específica** para execução de testes segmentados.
 
-## Tecnologias Utilizadas
-- **Linguagem:** C# (.NET Framework)
-- **Interface Gráfica:** Windows Forms (com implementação Qt leve para Raspberry Pi)
-- **Banco de Dados:** MySQL (`cpetestcenter`)
-- **Conexão com OLT:** Telnet
-- **Processamento de Respostas:** Expressões Regulares (Regex)
-- **Automatização de Testes:** Scripts XML para execução de comandos na OLT
-- **Monitoramento de Rede:** `ManagedNativeWifi`
-
 ## Estrutura do Projeto
 O sistema é organizado da seguinte maneira:
-- **`TelnetConnection`**: Responsável pela conexão Telnet com a OLT.
 - **`ListarOnus`**: Obtém a lista de ONTs conectadas.
 - **`NokiaTestes`**: Classe principal de execução dos testes.
 - **`TextContext`**: Armazena os resultados dos testes.
@@ -41,7 +31,7 @@ O CPETestCenter permite operação manual e automatizada:
 
 ## Testes Realizados
 - **Teste de Sistema**: Verifica os parâmetros gerais da ONT.
-- **Teste de Provisionamento**: Confirma se a ONT está corretamente provisionada na OLT.
+- **Teste de Provisionamento**: Confirma se a ONT está corretamente provisionada.
 - **Teste Operacional**: Analisa o funcionamento geral da ONT.
 - **Teste Óptico**: Mede os níveis de potência de recepção e transmissão.
 - **Teste de Tráfego de Dados**: Valida a conectividade e desempenho da ONT na rede.
@@ -55,12 +45,12 @@ O CPETestCenter permite operação manual e automatizada:
 - **Processador:** Intel Core i5 ou equivalente
 - **Memória RAM:** 8GB ou superior
 - **Armazenamento:** 500MB livres
-- **Conectividade:** Acesso Telnet à OLT Nokia
+- **Conectividade:** Acesso remoto às ONTs
 
 ## Instalação
 1. **Baixar o executável** do CPETestCenter.
-2. **Executar o instalador** (OneClick ou Setup independente).
-3. **Configurar as credenciais** de acesso à OLT.
+2. **Executar o instalador**.
+3. **Configurar as credenciais** de acesso.
 4. **Iniciar os testes e monitoramento.**
 
 ## Atualização
@@ -77,5 +67,4 @@ Para suporte ou mais informações:
 
 ---
 
-O CPETestCenter é uma solução poderosa e automatizada para operações em massa de ONTs, garantindo maior controle e eficiência na gestão de redes GPON.
-
+O CPETestCenter é uma solução poderosa e automatizada para operações em massa de ONTs, garantindo maior controle e eficiência na gestão de redes.
