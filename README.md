@@ -24,6 +24,44 @@ O sistema é organizado da seguinte maneira:
 - **`frmEscolhaInsterfaceTeste`**: Seleciona o slot e a PON de teste.
 - **`chartProdTotal` e `chartGeral`**: Gráficos para visualização dos resultados.
 
+## Capturas de Tela
+
+### Tela de Login
+Interface de login do sistema.
+![Tela de Login](images/login.png)
+
+### Provisionamento de ONTs
+Interface para provisionamento de ONTs.
+![Provisionamento](images/provisionamento.png)
+
+### Comando de Provisionamento
+Execução do comando de provisionamento.
+![Provisionamento Comando](images/provisionamento_cmd.png)
+
+### Provisionamento Concluído
+Confirmação do provisionamento correto da ONT.
+![Provisionamento OK](images/provisionamento_ok.png)
+
+### Resultados de Teste Wi-Fi
+Exibição dos dados obtidos no teste de Wi-Fi.
+![Resultados Wi-Fi](images/resultados-wifi.png)
+
+### Resultados Gerais
+Visão geral dos testes realizados.
+![Resultados Gerais](images/resultados_geral.png)
+
+### Tela de Teste
+Interface para execução dos testes.
+![Tela de Teste](images/teste.png)
+
+### Teste em Execução
+Fase de execução dos testes.
+![Teste Início](images/teste_start.png)
+
+### Teste Finalizado
+Resultado final do teste realizado.
+![Teste Finalizado](images/teste_finish.png)
+
 ## Modos de Operação
 O CPETestCenter permite operação manual e automatizada:
 - **Modo Manual:** O usuário pode iniciar testes individuais ou provisionar ONTs de forma personalizada.
