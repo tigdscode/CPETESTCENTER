@@ -16,12 +16,12 @@ O **CPETestCenter** é um sistema completo de provisionamento e controle de ONTs
 
 ## Estrutura do Projeto
 O sistema é organizado da seguinte maneira:
-- **`ListarOnus`**: Obtém a lista de ONTs conectadas.
-- **`NokiaTestes`**: Classe principal de execução dos testes.
-- **`TextContext`**: Armazena os resultados dos testes.
-- **`frmHome`**: Interface principal do sistema.
-- **`frmRelatorios`**: Exibição dos relatórios e histórico de testes.
-- **`frmEscolhaInsterfaceTeste`**: Seleciona o slot e a PON de teste.
+- **`Listar Onus`**: Obtém a lista de ONTs conectadas.
+- **`Nokia Testes`**: Classe principal de execução dos testes.
+- **`Resultados Testes`**: Armazena os resultados dos testes.
+- **`Home`**: Interface principal do sistema.
+- **`Relatórios`**: Exibição dos relatórios e histórico de testes.
+- **`Testes`**: Seleciona o slot e a PON de teste.
 - **`chartProdTotal` e `chartGeral`**: Gráficos para visualização dos resultados.
 
 ## Capturas de Tela
